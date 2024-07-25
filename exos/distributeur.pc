@@ -1,0 +1,4 @@
+Algorithme nomAlgo
+DEBUT
+    
+FIN

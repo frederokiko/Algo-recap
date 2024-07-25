@@ -1,0 +1,52 @@
+Algorithme conditions
+DEBUT
+//exemple 1
+// Variable prenom : Chaine
+
+//     Ecrire("Entrez votre prenom")
+//     prenom=Lire()
+
+//     SI penom== "Seb" ALORS
+//         Ecrire("Quel beau prenom")
+//     SINON
+//          Ecrire("Tu n'est pas Seb!")
+    
+    
+//   SI penom== "Roger" ALORS
+//         Ecrire("Fderer ?")
+    
+//     FIN
+//exemple 2
+//   Ecrire("Entrez numero du jour")
+//     jour=Lire()
+
+//     SI jour == 1 ALORS
+//         Ecrire("lundi des patates")
+//         SINONSI jour==2 ALORS
+//         Ecrire("mardi des patates")
+//         SINONSI jour==3 ALORS
+//         Ecrire("mercredi des patates")
+//         SINONSI jour==4 ALORS
+//         Ecrire("jeudi des patates")
+//         SINONSI jour==5 ALORS
+//         Ecrire("vendredi des patates")
+//         SINONSI jour==6 ALORS
+//         Ecrire("samedi des patates")
+//         SINONSI jour==7 ALORS
+//         Ecrire("dimanche des patates")
+//         SINON
+//         Ecrire("Entree incorecte")
+//      FINSI   
+//exemple 3
+SELONQUE jour VAUT
+    1 : Ecrire("lundi des patates")
+    2 : Ecrire("mardi des patates")
+    3 : Ecrire("mercredi des patates")
+    4 : Ecrire("jeudi des patates")
+    5 : Ecrire("vendredi des patates")
+    6 : Ecrire("samedi des patates")
+    7 : Ecrire("dimanche des patates")
+    SINON : Ecrire("Entree incorecte")
+FINSQ
+
+FIN

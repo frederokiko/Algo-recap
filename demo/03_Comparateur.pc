@@ -1,0 +1,19 @@
+Algorithme comparateur
+DEBUT
+    
+Variable prenom : Chaine
+Variable estSEB : Booleen
+Variable age : Entier
+Variable estMajeur : Booleen
+    Ecrire("Entrez votre prenom")
+    prenom=Lire()
+estSEB=prenom=="seb"
+
+    Ecrire("Age: ")
+    age=Lire()
+
+estMajeur = age >= 18
+
+
+
+FIN

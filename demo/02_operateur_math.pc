@@ -1,0 +1,21 @@
+Algorithme opmath
+DEBUT
+    Variable a,b : Entier
+    Variable somme,dif,produit,quotient ,reste : Entier
+
+    Ecrire("Entre un premier nombre :")
+    a=Lire()
+     Ecrire("Entre un deuxieme nombre :")
+    b=Lire()
+somme=a + b
+dif=a - b
+produit=a * b
+quotient = a / b
+reste = a MOD b
+Ecrire(a+"+"+b+" = "+somme)
+Ecrire(a+"-"+b+" = "+dif)
+Ecrire(a+"X"+b+" = "+produit)
+Ecrire(a+":"+b+" = "+quotient)
+Ecrire(a+" modulo "+b+" = "+reste)
+
+FIN

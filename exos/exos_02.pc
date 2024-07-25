@@ -1,0 +1,33 @@
+Algorithme calcul_temp
+DEBUT
+    Variable temp_sec,seconde=0,minute=0,heure=0,jour=0: Entier 
+Ecrire("Entre un temps en seconde :")
+temp_sec=Lire()
+SI temp_sec>86400 ALORS
+   jour = temp_sec / 86400
+   temp_sec=temp_sec MOD 86400
+FIN
+SI temp_sec>3600 ALORS
+    heure=temp_sec / 3600
+    temp_sec=temp_sec MOD 3600
+FIN
+SI temp_sec>60 ALORS
+    minute=temp_sec / 60
+    temp_sec=temp_sec MOD 60
+FIN
+seconde=temp_sec
+Ecrire("represente : "+jour+" jour(s) "+heure+" heure(s) "+minute+" minute(s) "+seconde+" seconde(s)")
+
+
+
+
+
+
+
+
+
+
+FIN
+// 1 min = 60 s
+// 1 h = 60 min = 3600 s
+// 1 j = 24 h = 1400 min = 86400 s

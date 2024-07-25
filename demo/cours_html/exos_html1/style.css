@@ -1,0 +1,16 @@
+.une{
+    background-color: rgb(151, 151, 142)
+}
+.pair{
+    background-color: rgb(235, 227, 227);
+    
+}
+.impair{
+    background-color: burlywood;
+}
+td:hover{
+background-color: rgb(154, 201, 201);
+}
+.fond{
+    text-align: center;
+}

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+.titre{
+    font-family : "Dancing script";
+}
+h3{
+    font-family : "Dancing script"; 
+}
+/* 
+.surf{
+    color: greenyellow;
+    transition: 6s;
+} */
+/* .surf:hover{
+    font-size: 200pt;
+    color: red;
+    margin-left: 200px;  
+}
+#a1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transform: skew(30deg,30deg);
+}
+#a2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(128, 109, 0);
+
+}
+#a2:hover{ 
+    transform: scale(2,2);
+}
+#a3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(128, 109,0);
+    transform: rotate(180deg);
+}
+#a4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(34, 0, 128);
+
+}
+@keyframes coucou {
+    0% {color:aquamarine}
+    10% {color:rgb(16, 46, 36)}
+    20% {color:rgb(200, 255, 127)}
+    50% {color:rgb(255, 127, 244)}
+    90% {
+        transform: translate(100px, 80px) rotate(30deg);
+        border-radius: 30px;
+        background-color: red;
+		width: 200px;
+        height: 150px;
+    }
+}
+h3{
+    margin-left: 800px;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    color: black;
+}
+#test:hover{
+animation: coucou 10s linear infinite;
+
+}
+@media screen and (min-width: 1000px) 
+{ 
+    figure{
+        width: 60%;
+        height: 60%;
+    }
+}
+@media screen and (max-width: 999px) 
+{ 
+div{display:none;} 
+h3{display:none;}
+img{size: 40%;}
+} */ 
+
+.main
+{  
+ display: flex;
+ flex-direction:row;
+ flex-wrap:wrap;
+
+ align-items: center;
+ justify-content: center;
+}
+div{
+    background-color: burlywood;
+   margin: auto;
+   padding: auto;
+}
+p{
+    background-color: blanchedalmond;
+    margin: 2px;
+    padding: 2px;
+}
+.main2{
+    
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+        /* Les alignements dans l’axe de lecture principal sont définis à l’aide de la propriété justify-content,
+dont les valeurs possibles sont :
+• flex-start (éléments positionnés au début du sens de lecture, valeur par défaut)
+• flex-end (éléments positionnés à la fin)
+• center (position centrale)
+• space-between (répartition “justifiée”)
+• space-around (variante de répartition “justifiée”) */
+    
+   }
+/* p:first-of-type{
+    order: 1;
+} */
+p:hover{
+    background-color: yellowgreen;
+} 
+.main3
+{  
+height: 500px;
+ display: flex;
+ flex-direction:row;
+ flex-wrap:wrap;
+ /* align-items: center; 
+ justify-content: center;  */
+}
+.main3 > p:first-child {
+    height: 20%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* flex: 2; */
+    color:red;
+    }
+.main3 > p:last-child {
+    height: 20%;
+    align-items: flex-end;
+    justify-content: center;
+    /* flex: 1; */
+    color:red;
+    }
+.b2{
+    align-items: center;
+    justify-content: flex-start;
+    /* flex: 1; */
+    color:red;
+}
+.b3{
+    align-items: center;
+    justify-content: center;
+    /* flex: 1; */
+    color:red;
+}
+.b4{
+    align-items: center;
+    justify-content: flex-end;
+    /* flex: 1; */
+    color:red;
+}
+ul
+{  
+height: 500px;
+ display: flex;
+ flex-direction:column;
+ flex-wrap:wrap;
+ /* align-items: center; 
+ justify-content: center;  */
+}
+li{
+    width: 20px;
+    height: 50px;
+    border: 2px;
+}
+li:first-child{
+   
+    justify-content: space-around; 
+    justify-content: flex-start; 
+    
+}
+li:last-child{
+    align-items: flex-end; 
+    justify-content: flex-end; 
+   
+}

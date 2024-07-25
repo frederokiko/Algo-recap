@@ -1,0 +1,18 @@
+Algorithme exos
+DEBUT
+//exos1
+ Variable annee: Entier
+
+Ecrire("Entre une année :")
+annee=Lire()
+    SI (annee%4==0 ET annee%1000 !=0) OU annee%400 == 0 ALORS
+        Ecrire("c'est une année bisextile")
+        SINON
+        Ecrire("Ce n'est pas une année bisextile")
+    FINSI
+//exos2  
+Variable pret : Booleen
+Variable panier_vide : Booleen
+
+
+FIN

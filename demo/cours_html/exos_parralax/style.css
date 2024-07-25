@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    border: 1;
+    color: red;
+}
+#a1{top: auto;}
+#a2{top: -1000;}
+#a3{top: 0%;}

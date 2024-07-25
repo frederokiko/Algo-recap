@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box; 
+    margin:0;
+    padding:0;
+  }
+  
+  
+  
+  body {
+    display: flex; /* crée un contexte flex pour ses enfants */
+    flex-direction: column; /* affichage vertical */
+    height: 100vh; /* toute la hauteur du viewport */
+    padding: 1em;
+  }
+  
+  .tout {
+    flex: 1 1 auto; 
+    display: flex; /* crée un contexte flex pour ses enfants */
+  }
+  
+  nav,
+  aside {
+    width: 10em;
+  }
+  
+  article {
+    flex: 3; /* occupe tout l'espace restant */
+  }
+  
+  nav {
+    order: 2; /* nav s'affiche en dernier*/
+    flex: 1;
+  }
+  
+  
+  /* Responsive (fenêtres de moins de 700px) */
+  
+  @media (max-width: 700px) {
+    .tout {
+      flex-direction: column; /* affichage vertical */
+    }
+    nav,
+    aside {
+      width: auto; /* pour écraser la valeur 10em */
+    }
+    nav,
+    aside,
+    article {
+      flex-basis: 1; /* pour écraser la valeur 0, due au flex: 1 */
+    }
+    nav {
+      order: 1; /* nav prend la 1ère place */
+    }
+    article {
+      order: 2; /* article prend la 2ème place */
+    }
+    aside {
+      order: 3; /* aside prend la dernière place */
+    }
+  }
+  
+  /* apparence */
+  
+  body {
+    margin: 0;
+    background: #999;
+    font-family: arial, sans-serif;
+  }
+  header,
+  nav,
+  aside,
+  article,
+  footer {
+    margin: .2em;
+    padding: 1em;
+    border-radius: 10px;
+  }
+  header {
+  margin-top: -1em;
+    background: #EBB268;
+   
+  }
+  nav {
+    background: #ccccff;
+  }
+  aside {
+    background: #ccccff;
+  }
+  article {
+    background: #dddd88;
+  }
+  footer {
+    background: #ffeebb;
+  }

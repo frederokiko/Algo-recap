@@ -1,0 +1,20 @@
+Algorithme Demo Variables
+
+DEBUT
+
+Constante PI = 3.14
+Variable age  : Entier
+Variable prenom : chaine
+Variable prenom2 : Chaine
+Variable monReel : Reel
+Variable estCool : Booleen
+
+
+   prenom="Fred"
+   prenom2="Roger"
+    age=33
+    monReel=1.2
+    estCool=true
+    prenom= prenom2
+
+FIN

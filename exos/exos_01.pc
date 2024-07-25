@@ -1,0 +1,25 @@
+Algorithme exos
+DEBUT
+    Variable a : Entier
+    Variable b : Entier
+    Variable c : Entier
+    // a=5
+    // b=7
+// solu 1 
+    // b=b-a 
+    // a=a+b 
+    // b=a-b 
+// solu 2
+    // c=a 
+    // a=b
+    // b=c
+Ecrire("Rentre un entier")
+a=Lire()
+Ecrire("Rentre un entier")
+b=Lire()
+Ecrire("a = "+a+"b= "+b)
+ c=a 
+    a=b
+    b=c
+Ecrire("a = "+a+"b= "+b)
+FIN

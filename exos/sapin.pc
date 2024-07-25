@@ -1,0 +1,70 @@
+Algorithme sapin
+Variable taille : Entier
+Variable cpt : Entier
+Variable lignesecrite : Entier
+Variable ettoileecrite : Entier
+
+DEBUT
+Ecrire("veuillez entrez la taille du triangle")
+Lire(taille)
+TANTQUE lignesecrite<taille FAIRE
+    ettoileecrite=0
+    TANTQUE ettoileecrite<= lignesecrite FAIRE
+        Ecrire("*")
+        ettoileecrite++
+    FINTQ
+    Ecrire(/n)
+   lignesecrite++ 
+FINTQ
+
+FIN
+
+
+Algorithme sapin2
+Variable taille : Entier
+Variable cpt : Entier
+Variable lignesecrite : Entier
+Variable ettoileecrite : Entier
+
+DEBUT
+Ecrire("veuillez entrez la taille du triangle")
+Lire(taille)
+// TANTQUE lignesecrite<taille FAIRE
+//     ettoileecrite=0
+//     TANTQUE ettoileecrite<= lignesecrite FAIRE
+//         Ecrire("*")
+//         ettoileecrite++
+//     FINTQ
+//     Ecrire(/n)
+//    lignesecrite++ 
+// FINTQ
+
+POUR lignesecrite DE 0 À taille [PAR +1] FAIRE
+   POUR ettoileecrite DE 0 À lignesecrite    [PAR +1] FAIRE
+    Ecrire("*")
+   FINP
+    Ecrire("/n")
+FINP
+
+
+FIN
+Algorithme sapin3
+Variable taille : Entier
+Variable lignecourante : Entier
+Variable lignesecrite : Entier
+Variable ettoileecrite : Entier
+
+DEBUT
+Ecrire("veuillez entrez la taille du triangle")
+Lire(taille)
+lignecourante=1
+TANTQUE lignecourante<=taille FAIRE
+    //ecrire espace
+
+    // ecrire *
+
+    Ecrire("/n")
+FINTQ
+
+
+FIN
